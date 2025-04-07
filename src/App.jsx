@@ -56,12 +56,17 @@ const App = () =>{
                 <h1>Darren Yang</h1>
                 <h3>Information Technology Intern</h3>
                 <p>
-                  Hello, my name is Darren Yang, currently a Junior 
-                  undergraduate at Rochester Institute of Technology. I'm currently
-                  majoring in a bachelor's degree for Computing & Information Technology.
+                  Hello, I am a 3rd year Computing & Infomation Technology at
+                  Rochester Institute of Technology and a multilingual speaker
+                  with a interest in web development and networking. I am currently
+                  looking to join a company that values innovation and continuous
+                  learning. I’m passionate about continuous learning and innovation, 
+                  and I’m excited about the chance to contribute to meaningful projects 
+                  while gaining valuable industry experience. 
 
-                  Through this portfolio, I will showcase my technical skills as well as projects. 
-                  I believe that technology is at the heart of progress, and I’m excited to be a part of this ever-evolving field. 
+                  Feel free to explore my portfolio to learn more about my projects. 
+                  Let’s connect if you’re looking for a motivated and forward-thinking 
+                  intern to join your team!
                 </p>
               </div>
           </div>
