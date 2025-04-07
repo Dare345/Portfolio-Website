@@ -1,0 +1,13 @@
+.fixed-top{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.fixed-top span{
+color:white;
+}
+.fixed-top a{
+    color:white;
+}
