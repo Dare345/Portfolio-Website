@@ -1,5 +1,6 @@
 {
   "name": "darren-portfolio",
+  "homepage": "https://dare345.github.io/Portfolio-Website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -17,6 +20,7 @@
     "@mui/styled-engine-sc": "^6.4.0",
     "bootstrap": "^5.3.3",
     "darren-portfolio": "file:",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^18.3.1",
