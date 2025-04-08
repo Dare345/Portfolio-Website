@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
 import { styled } from '@mui/material/styles';
 import Modal from './Modal.jsx';
+import './Slack.css';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',
@@ -24,17 +25,20 @@ export default function BasicStack() {
           md:'column',
           lg:'row'
         }}>
-        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}}>
+        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}} className="item">
             <Modal keepMounted id="CSEC-102"/>
         </Item >
-        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}}>
+        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}} className="item">
             <Modal keepMounted id="NSSA-220"/>
         </Item>
-        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}}>
-            <Modal keepMounted id="ISTE-340"/>
+        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}} className="item">
+            <Modal keepMounted id="ISTE-340" />
         </Item>
-        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}}>
+        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}} className="item">
             <Modal keepMounted id="NSSA-102"/>
+        </Item>
+        <Item sx={{backgroundColor:"rgb(45, 44, 44)"}} className="item">
+            <Modal keepMounted id="ISTE-260"/>
         </Item>
       </Stack>
     </Box>

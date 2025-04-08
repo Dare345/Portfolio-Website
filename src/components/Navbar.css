@@ -12,3 +12,15 @@ color:white;
 .fixed-top a{
     color:white;
 }
+
+@media only screen and (max-width: 575px) {
+    
+.brand{
+    margin-left:50px;
+}
+
+.link{
+    margin-left:50px;
+}
+
+}

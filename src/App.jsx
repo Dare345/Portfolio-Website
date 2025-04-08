@@ -54,7 +54,7 @@ const App = () =>{
             <img src={Darren} alt="Darren" ></img>
               <div>
                 <h1>Darren Yang</h1>
-                <h3>Information Technology Intern</h3>
+                <h3>Information Technology <br/>Intern</h3>
                 <p>
                   Hello, I am a 3rd year Computing & Infomation Technology at
                   Rochester Institute of Technology and a multilingual speaker
