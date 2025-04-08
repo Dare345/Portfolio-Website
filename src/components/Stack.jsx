@@ -19,7 +19,11 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function BasicStack() {
   return (
     <Box sx={{ width: '100%' }}>
-      <Stack spacing={2} direction="row">
+      <Stack spacing={{ xs: 2, md: 3 }}
+        direction={{
+          md:'column',
+          lg:'row'
+        }}>
         <Item sx={{backgroundColor:"rgb(45, 44, 44)"}}>
             <Modal keepMounted id="CSEC-102"/>
         </Item >

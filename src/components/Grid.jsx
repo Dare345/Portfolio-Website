@@ -20,8 +20,8 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function AutoGrid(props) {
   return (
     <Box sx={{ flexGrow: 1}}>
-      <Grid container spacing={4} sx={{justifyContent: "center", 
-        alignItems: "center"}}>
+      <Grid container spacing={{ xs: 2, md: 3 }} sx={{justifyContent: "center", 
+        alignItems: "center"}} columns={{ xs: 4, sm: 8, md: 12 }}>
           <Grid size={5}>
             <Item className="item" sx={{backgroundColor:"rgb(32, 32, 32)"}}>
                 <Link to="https://people.rit.edu/dy4385/340/viteReact/  ">
@@ -51,7 +51,6 @@ export default function AutoGrid(props) {
                     comments page which uses a database to record any comments people may have.
                     Unfortunately, the website provided by the link doesn't have this page currently
                     because of the database I used is not accessible to people outside of RIT. 
-                
                 </p>
             </Item>
           </Grid>

@@ -90,6 +90,11 @@ nav > .container{
   max-width: 400px;
 }
 
+.box > img{
+  width:50%;
+  margin-bottom:25px;
+}
+
 #courses{
   box-shadow: 8px 6px;
   border-radius: 2%;
@@ -119,7 +124,7 @@ nav > .container{
   box-shadow: 8px 6px;
   border-radius: 2%;
   background-color:rgb(29, 28, 28);
-  padding:50px 0px;
+  padding:50px 50px;
   display: flex;
   flex-direction:column;
   flex-wrap:wrap;
@@ -131,6 +136,7 @@ nav > .container{
   color:white;
   margin-bottom:0.4in;
   text-align: center;
+  padding:10px;
 }
 
 #major > p{
@@ -138,6 +144,7 @@ nav > .container{
   max-width:800px;
   text-align: center;
   line-height: 2em;
+  font-size:100%;
 }
 
 #projects{
@@ -155,6 +162,10 @@ nav > .container{
 }
 
 #contact{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
   box-shadow: 8px 6px;
   border-radius: 2%;
   background-color:rgb(29, 28, 28);
@@ -166,8 +177,10 @@ nav > .container{
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-content: center;
   text-align: center;
   list-style-type: none;
+  padding:0px;
 }
 
 #contact li{
@@ -184,7 +197,7 @@ nav > .container{
   color:white;
   margin-bottom:0.4in;
   text-align: center;
-  font-size:larger;
+  font-size:100%;
   transition: transform 300ms, 0.5s ease-in-out;
 }
 
@@ -196,3 +209,13 @@ nav > .container{
   color:rgb(90, 69, 69);
 }
 
+@media only screen and (min-width: 600px) {
+  #about > .box{
+    flex-direction: column;
+  }
+  
+  #major > p{
+    max-width:400px;
+  }
+
+}
