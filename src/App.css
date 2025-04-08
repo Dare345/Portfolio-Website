@@ -209,9 +209,34 @@ nav > .container{
   color:rgb(90, 69, 69);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 1000px) {
+  #about{
+    margin:25px;
+  }
+
+  #major{
+    margin:25px;
+  }
+
+  #courses{
+    margin:25px;
+  }
+
+  #projects{
+    margin:25px;
+  }
+
+  #contact{
+    margin:25px;
+  }
+  
   #about > .box{
     flex-direction: column;
+    
+  }
+
+  #about img{
+    width:200px;
   }
   
   #major > p{
